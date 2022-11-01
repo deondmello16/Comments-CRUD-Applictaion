@@ -1,0 +1,9 @@
+<%- include('../partials/head') %> 
+
+<h1>Comments</h1>
+
+<ul>
+    <% for( let i of comments ) { %>
+        <li><b><%= i.username %> : </b><%= i.comment %> </li>
+    <% } %>
+</ul>
