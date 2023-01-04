@@ -51,5 +51,5 @@ app.post('/comments',(req,res)=>{
     res.redirect('/comments')
 })
 
-app.listen(3000,()=>{console.log("Connected")});
+app.listen(8000,()=>{console.log("Connected")});
 
